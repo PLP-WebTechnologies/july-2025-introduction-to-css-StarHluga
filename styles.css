@@ -1,0 +1,131 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+/* Header & Navigation */
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    border: 5px solid #2e7d32;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    display: inline-block;
+    background: #81c784;
+    padding: 8px 15px;
+    border: 2px solid #388e3c;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background-color: #66bb6a;
+}
+
+/* Main */
+main {
+    max-width: 1200px;
+    margin: 80px auto 0; /* avoid overlap with fixed header */
+    padding: 20px;
+}
+
+/* Sections */
+section {
+    background: #bbdefb;
+    padding: 20px;
+    border: 4px solid #1976d2;
+    margin-bottom: 20px;
+}
+
+/* Images */
+section img {
+    display: block;
+    background: #fff9c4;
+    padding: 10px;
+    border: 3px solid #fbc02d;
+    margin-top: 15px;
+    max-width: 100%;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffe0b2;
+    margin-top: 15px;
+    border: 3px solid #ef6c00;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ef6c00;
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+    background: #f8bbd0;
+    padding: 15px;
+    border: 3px solid #c2185b;
+}
+
+form label {
+    margin: 8px 0 5px;
+}
+
+form input,
+form select,
+form textarea {
+    background: #fce4ec;
+    padding: 8px;
+    border: 2px solid #ad1457;
+    margin-bottom: 10px;
+}
+
+form button {
+    background: #c2185b;
+    color: #fff;
+    border: 3px solid #880e4f;
+    padding: 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #ad1457;
+}
+
+/* Footer */
+footer {
+    background: #cfd8dc;
+    padding: 20px;
+    border: 4px solid #607d8b;
+    margin-top: 20px;
+    text-align: center;
+}
